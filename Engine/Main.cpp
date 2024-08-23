@@ -30,7 +30,6 @@ int WINAPI wWinMain( HINSTANCE hInst,HINSTANCE,LPWSTR pArgs,INT )
 		try
 		{
 			Game theGame( wnd );
-			
 			bool exitGame = false;
 			while( wnd.ProcessMessage() && !exitGame)
 			{
